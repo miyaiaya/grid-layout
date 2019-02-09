@@ -28,6 +28,19 @@ a:link, a:visited, a:hover, a:active {
 .item .image {
   display: block;
   width: 100%;
+  height: 109px;
+}
+.item-m {
+  width: 364px;
+}
+.item-m .image {
+  height: 146px;
+}
+.item-l {
+  width: 723px;
+}
+.item-l .image {
+  height: 403px;
 }
 .item .category {
   margin: 15px 9px 10px;
@@ -77,5 +90,6 @@ a:link, a:visited, a:hover, a:active {
 .item-breaktime .category::before {
   border-color: #C1EFFF;
 }
+
 
 
