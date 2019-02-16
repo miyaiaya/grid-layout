@@ -129,3 +129,19 @@ a:link, a:visited, a:hover, a:active {
 .nav-item a:hover::after {
   width: 100%;
 }
+.item > a::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  left: 8px;
+  display: block;
+  height:109px;
+  background-color: rgb(0,0,0,0.5);
+}
+.item-m a::before {
+  height: 146px;
+}
+.item-l a::before {
+  height: 403px;
+}
