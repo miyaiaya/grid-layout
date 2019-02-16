@@ -105,5 +105,13 @@ a:link, a:visited, a:hover, a:active {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-
-
+.nav {
+  margin: 35px auto 10px;
+}
+.nav-item {
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
