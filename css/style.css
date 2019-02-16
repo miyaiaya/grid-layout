@@ -152,7 +152,7 @@ a:link, a:visited, a:hover, a:active {
   content: 'MORE';
   position: absolute;
   top: 43.5px;
-  left: 50%;
+  left: 150%;
   display: block;
   width: 100px;
   margin-left: -50px;
@@ -163,6 +163,8 @@ a:link, a:visited, a:hover, a:active {
   letter-spacing: 1px;
   font-size: 1.6rem;
   font-family: "Trebuchet MS", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
 }
 .item-m a::after {
   top: 62px;
@@ -170,6 +172,10 @@ a:link, a:visited, a:hover, a:active {
 .item-l a::after {
   top: 190.5px;
 }
-.item >a::before {
+.item >a:hover::before {
+  opacity: 1;
+}
+.item >a:hover::after {
+  left: 50%;
   opacity: 1;
 }
